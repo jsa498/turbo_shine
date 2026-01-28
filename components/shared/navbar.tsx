@@ -12,7 +12,7 @@ const links = [
   { href: "/", label: "Home" },
   { href: "/services", label: "Services" },
   { href: "/our-work", label: "Our Work" },
-  { href: "/#contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -80,7 +80,7 @@ export function Navbar() {
               asChild
               className="hidden rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-colors hover:bg-white/90 hover:text-black md:inline-flex"
             >
-              <Link href="/auth/login">Login</Link>
+              <Link href="/login">Login</Link>
             </Button>
 
             <Button
@@ -138,7 +138,7 @@ export function Navbar() {
                 asChild
                 className="w-full rounded-full bg-white py-6 text-base font-medium text-black hover:bg-white/90"
               >
-                <Link href="/auth/login" onClick={closeMenu}>
+                <Link href="/login" onClick={closeMenu}>
                   Login
                 </Link>
               </Button>
