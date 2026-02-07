@@ -80,7 +80,7 @@ export function Navbar() {
               asChild
               className="hidden rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-colors hover:bg-white/90 hover:text-black md:inline-flex"
             >
-              <Link href="/login">Login</Link>
+              <Link href="/book">Book Now</Link>
             </Button>
 
             <Button
@@ -138,8 +138,8 @@ export function Navbar() {
                 asChild
                 className="w-full rounded-full bg-white py-6 text-base font-medium text-black hover:bg-white/90"
               >
-                <Link href="/login" onClick={closeMenu}>
-                  Login
+                <Link href="/book" onClick={closeMenu}>
+                  Book Now
                 </Link>
               </Button>
             </div>
