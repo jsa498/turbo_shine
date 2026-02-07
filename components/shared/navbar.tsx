@@ -10,9 +10,9 @@ import { cn } from "@/lib/utils";
 
 const links = [
   { href: "/", label: "Home" },
-  { href: "/services", label: "Services" },
-  { href: "/our-work", label: "Our Work" },
-  { href: "/contact", label: "Contact" },
+  { href: "/#services", label: "Services" },
+  { href: "/#our-work", label: "Our Work" },
+  { href: "/#contact", label: "Contact" },
 ];
 
 export function Navbar() {
@@ -80,7 +80,7 @@ export function Navbar() {
               asChild
               className="hidden rounded-full bg-white px-6 py-2 text-sm font-medium text-black transition-colors hover:bg-white/90 hover:text-black md:inline-flex"
             >
-              <Link href="/book">Book Now</Link>
+              <Link href="/#book">Book Now</Link>
             </Button>
 
             <Button
@@ -138,7 +138,7 @@ export function Navbar() {
                 asChild
                 className="w-full rounded-full bg-white py-6 text-base font-medium text-black hover:bg-white/90"
               >
-                <Link href="/book" onClick={closeMenu}>
+                <Link href="/#book" onClick={closeMenu}>
                   Book Now
                 </Link>
               </Button>
